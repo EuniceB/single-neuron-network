@@ -1,0 +1,25 @@
+#canvas {
+    border: 1px solid red;
+}
+
+#x, #y{
+    margin-right: 10px;
+}
+
+#num-points{
+    width: 50px;
+}
+
+.loader{
+    display: none;
+}
+
+.loader.show {
+    display: flex;
+    align-items: center;
+}
+
+.loader img {
+    width: 50px;
+    margin-right: 20px;
+}
