@@ -1,25 +1,52 @@
-#canvas {
-    border: 1px solid red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
-#x, #y{
-    margin-right: 10px;
-}
-
-#num-points{
-    width: 50px;
-}
-
-.loader{
-    display: none;
-}
-
-.loader.show {
+body{
+    font-family: 'Manrope', sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.loader img {
+main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    margin-right: 30px;
+    border: 1px solid black; 
+}
+
+#num-points {
     width: 50px;
-    margin-right: 20px;
+}
+
+
+#legend{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.color {
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+}
+
+.grey {
+    background-color: #eeeeee;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#accuracy {
+    font-weight: bold;
 }
